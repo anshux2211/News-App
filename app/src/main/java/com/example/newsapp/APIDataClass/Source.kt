@@ -1,4 +1,4 @@
-package com.example.newsapp.APIData
+package com.example.newsapp.APIDataClass
 
 data class Source(
     val id: String,

@@ -1,9 +1,9 @@
-package com.example.newsapp
+package com.example.newsapp.API
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 
-class NewsViewModelFactory(private val rpo:Repo):ViewModelProvider.Factory {
+class NewsViewModelFactory(private val rpo: Repo):ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
             return NewsViewModel(rpo) as T
     }

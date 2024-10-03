@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.NewsApp" parent="Base.Theme.NewsApp" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/light_blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/news_icon</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.NewsApp</item>
+
+    </style>
 </resources>

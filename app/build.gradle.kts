@@ -48,7 +48,7 @@ dependencies {
             implementation ("com.squareup.retrofit2:retrofit:2.9.0")
             implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
-            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
             implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
             implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.6")
@@ -63,4 +63,14 @@ dependencies {
             implementation ("com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2")
 
             implementation ("androidx.recyclerview:recyclerview:1.3.2")
+
+    // OkHttp (for adding Interceptors)
+    implementation ("com.squareup.okhttp3:okhttp:4.11.0")
+
+// OkHttp Logging Interceptor (Optional: If you want to log network requests and responses)
+    implementation ("com.squareup.okhttp3:logging-interceptor:4.9.3")
+
+    implementation ("org.jsoup:jsoup:1.15.3")  // Check for the latest version
+    implementation("androidx.core:core-splashscreen:1.0.1")
+
 }
